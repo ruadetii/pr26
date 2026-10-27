@@ -24,7 +24,7 @@
             <Label Content="Адрес:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,66,0,0"/>
             <TextBox x:Name="tbAddress" Text="Адрес" VerticalAlignment="Top" Margin="10,92,10,0" Height="25" VerticalContentAlignment="Center" IsEnabled="False"/>
             
-            <Label Content="Время работы:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Column="1"/>
+            <Label Content="Время работы:" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,10,10,0" Grid.Column="1"/>
             <TextBox x:Name="tbWorkTime" Text="Время работы" VerticalAlignment="Top" Margin="10,36,10,0" Height="81" VerticalContentAlignment="Center" Grid.Column="1" IsEnabled="False"/>
         </Grid>
     </Grid>
